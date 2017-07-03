@@ -12,7 +12,7 @@ class AliyunSms {
     /**
      * 发送短信
      * @param  string $mobile 接受短信的号码
-     * @param  string $tplId  签名id，请在阿里云后台获取
+     * @param  string $tplId  模板签名id，请在阿里云后台获取
      * @param  array $params 发送的参数
      * @return mixed         返回错误或者数组信息
      */
@@ -21,8 +21,8 @@ class AliyunSms {
         // 引用配置文件
         include_once dirname(dirname(dirname(__FILE__))) . '/aliyun-core/src/Config.php';
         //此处需要替换成自己的AK信息
-        $accessKeyId = config('aliyunsms.access_key', "LTAIBF46CdQmEnsE");//参考本文档步骤2
-        $accessKeySecret = config('aliyunsms.access_secret',"GC3uDFXWKO9GgZJxZ8Lp5Ym0aPEfmc");//参考本文档步骤2
+        $accessKeyId = config('aliyunsms.access_key');//参考本文档步骤2
+        $accessKeySecret = config('aliyunsms.access_secret');//参考本文档步骤2
         //暂时不支持多Region
         $region = config('aliyunsms.region_id',"cn-hangzhou");
          //短信API产品名
