@@ -4,7 +4,7 @@
     "keywords": ["aliyun", "aliyun-sms", "laravel", "sms", "sdk"],
     "require": {
         "php": ">5.3",
-        "curder/aliyun-sms": "dev-master"
+        "curder/aliyun-sms": "^1.0"
     },
     "autoload": {
         "psr-4": {
