@@ -11,6 +11,8 @@ use Curder\AliyunCore\Exception\ServerException;
 class AliyunSms {
     public function send($mobile, $tplId, $params)
     {
+        // 引用配置文件
+        include_once dirname(dirname(dirname(__FILE__))) . '/aliyun-core/src/Config.php';
         //此处需要替换成自己的AK信息
         $accessKeyId = config('aliyunsms.access_key', "LTAIBF46CdQmEnsE");//参考本文档步骤2
         $accessKeySecret = config('aliyunsms.access_secret',"GC3uDFXWKO9GgZJxZ8Lp5Ym0aPEfmc");//参考本文档步骤2
