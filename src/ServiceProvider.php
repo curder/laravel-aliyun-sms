@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: zyxcba
- * Date: 2017/2/17
- * Time: 下午4:12
- */
 namespace Curder\LaravelAliyunSms;
 use Illuminate\Foundation\Application as LaravelApplication;
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
