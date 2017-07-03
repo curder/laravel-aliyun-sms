@@ -5,7 +5,7 @@ use Curder\AliyunCore\DefaultAcsClient;
 use Curder\AliyunCore\Regions\Endpoint;
 use Curder\AliyunCore\Regions\EndpointConfig;
 use Curder\AliyunCore\Regions\EndpointProvider;
-use Curder\AliyunSms\Sms\Request\V20170525\SendSmsRequest;
+use Curder\AliyunSms\Request\V20170525\SendSmsRequest;
 use Curder\AliyunCore\Exception\ClientException;
 use Curder\AliyunCore\Exception\ServerException;
 class AliyunSms {

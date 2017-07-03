@@ -5,7 +5,7 @@
 ## Install
 
 ```
-composer require --prefer-dist curder/laravel-aliyun-sms "dev-master"
+composer require curder/laravel-aliyun-sms
 ```
 
 ## Config
