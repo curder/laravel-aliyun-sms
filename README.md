@@ -11,7 +11,7 @@ composer require curder/laravel-aliyun-sms
 ```
 
 ## Config
-
+在Laravel项目的`.env`文件中配置如下信息。
 ```
 ALIYUN_SMS_ENABLE_HTTP_PROXY=false
 ALIYUN_SMS_HTTP_PROXY_IP=127.0.0.1
@@ -21,6 +21,12 @@ ALIYUN_SMS_AK=“”
 ALIYUN_SMS_AS=“”
 ALIYUN_SMS_SIGN_NAME=“”
 ```
+
+生成配置文件
+```
+php artisan vendor:publish --provider="Curder\LaravelAliyunSms\ServiceProvider"
+```
+生成的文件在`config/aliyunsms.php`，可以前往修改。
 
 ## How to use ?
 ```
