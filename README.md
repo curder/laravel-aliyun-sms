@@ -22,7 +22,7 @@ ALIYUN_SMS_SIGN_NAME=“”
 
 ## How to use ?
 ```
-$smsService = App::make(AliyunSms::class);
+$smsService = App::make(Curder\LaravelAliyunSms\AliyunSms::class);
 $smsService->send(strval($mobile), 'SMS_xxx', ['code' => strval(1234), 'product' => 'xxx']);
 ```
 > 参数分别是
