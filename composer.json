@@ -1,0 +1,23 @@
+{
+    "name": "curder/laravel-aliyun-sms",
+    "description": "阿里云短信服务 - Laravel",
+    "keywords": ["aliyun", "aliyun-sms", "laravel", "sms", "sdk"],
+    "require": {
+        "php": ">5.3",
+        "curder/aliyun-sms": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Curder\\LaravelAliyunSms\\": "src/"
+        }
+    },
+
+    "license": "MIT",
+    "minimum-stability" : "dev",
+    "authors": [
+        {
+            "name": "curder",
+            "email": "curder@foxmail.com"
+        }
+    ]
+}
